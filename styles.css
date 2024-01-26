@@ -1,0 +1,244 @@
+/* Google Font - Open Sans and Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styles */
+
+html, 
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+.small {
+    font-size: .8rem;
+}
+
+.display-1 {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.display-2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.btn-light {
+    border: 1px solid #000;
+    color: #000;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+form .form-group {
+    margin-bottom: 16px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495857;
+    background: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Navbar */
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    height: 10vh;
+}
+
+#navbar a {
+    color: #000;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Showcase */
+.showcase {
+    background: url('./images/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.showcase h2 {
+    padding-top: 240px;
+    padding-left: 700px;
+}
+
+.showcase p {
+    padding-left: 700px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Services */
+
+#services {
+    padding: 90px 0;
+}
+
+#services h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.services-box {
+    float: left;
+    width: 33%;
+    padding: 40px;
+}
+
+.services-box h4 {
+    padding-top: 20px;
+}
+
+/* About */
+#about {
+    padding: 90px;
+    background: #f9f9f9;
+}
+
+#about h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#about p {
+    padding-bottom: 20px;
+}
+
+#about .large {
+    font-weight: 600;
+}
+
+.about-left {
+    float: left;
+    width: 50%;
+    padding-right: 90px;
+}
+
+.about-right {
+    float: right;
+    width: 50%;
+    padding-right: 90px;
+}
+
+/* Contact */
+#contact {
+    padding: 90px 0;
+
+}
+
+#contact h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contact form {
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact form .btn {
+    width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
